@@ -12,7 +12,7 @@ pipeline {
     environment {
         // ── Update ECR_REGISTRY with your AWS account ID ──────────────────
         // Get it from: terraform output ecr_repository_url
-        ECR_REGISTRY  = "007400345148.dkr.ecr.ap-south-1.amazonaws.com/petclinic-dev-app"
+        ECR_REGISTRY  = "007400345148.dkr.ecr.ap-south-1.amazonaws.com"
         ECR_REPO      = "petclinic-dev-app"
         AWS_REGION    = "ap-south-1"
         EKS_CLUSTER   = "petclinic-dev-eks"
